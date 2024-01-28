@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/images/logo.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+</link>
+    <link rel="stylesheet" href="style.css" />
+    <title>Cipherword decryptor</title>
+  </head>
+  <body>
+    <header>
+      <img src="assets/images/logo.svg" alt="" />
+    </header>
+
+    <main>
+      <section class="criptografar">
+        <input type="text" id="criptografar" placeholder="Digite seu Texto" />
+      </section>  
+
+      <section class="descriptografar">
+        <img src="assets/images/high-quality.svg" alt="" />
+
+        <div class="descrip-text">
+          <h2>Nenhuma mensagem encontrada</h2>
+
+          <p>Digite um texto que deseja criptografar ou descriptografar.</p>
+        </div>
+      </section>  
+      
+      <section class="buttons">
+        <p>
+          <i class="fa fa-info-circle"></i>
+          Apenas letras minúsculas e sem acentos</p>
+        <button id="criptografar" class="btnCript">Criptografar</button>
+        <button id="descriptografar" class="btnDescript">
+          Descriptografar
+        </button>
+      </section>
+    </main> 
+      
+    <script src="assets/scripts/functions.js"></script>
+  </body>
+</html>
