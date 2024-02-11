@@ -13,6 +13,13 @@
 - JAVASCRIPT
 - FIGMA
 
+## ✏ Deascrição do Projeto
+
+- A letra "e" é convertida para "enter"
+- A letra "i" é convertida para "imes"
+- A letra "a" é convertida para "ai"
+- A letra "o" é convertida para "ober"
+- A letra "u" é convertida para "ufat"
 
 <table>
   <thead>
@@ -39,7 +46,7 @@
       <td><img width="30px" height="30px" align="center" alt="icon check" src="./assets/images/check.png"></td>
       <td>Projeto Finalizado! Confira 🎈🎉✨</td>
       <td align="center">
-        <a href="https://github.com/elizabetesfabri/bootcamp-oracle/logica-programacao" target="_blank">
+        <a href="https://elizabetesfabri.github.io/one-challenge-cipherword-decryptor/" target="_blank">
            <img align="center" alt="Botao" src="https://img.shields.io/badge/Ver%20Site-E30613?style=for-the-badge" width="150px">
         </a>
       </td>
