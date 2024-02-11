@@ -24,7 +24,7 @@
 *** 
 Descubra qual é a nossa mensagem secreta!
 - CRIPTOGRAFADA"pairaibenterns poberr enterncairair enterssenter dentersaifimesober enter tenterr fimesnailimeszaidober enterlenter coberm sufatcenterssober!"
-- DESCRIPTOGRAFADA: "parabens por encarar esse desafio e ter finalizado ele com sucesso!"
+
 ***
 
 
