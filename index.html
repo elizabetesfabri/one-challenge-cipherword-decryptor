@@ -18,34 +18,35 @@
   </head>
   <body>
     <header>
-      <img src="assets/images/logo.svg" alt="" />
+      <img class="header__logo" src="assets/images/logo.svg" alt="" />
     </header>
 
-    <main>
-      <section class="criptografar">
-        <input type="text" id="criptografar" placeholder="Digite seu Texto" />
-      </section>  
-
-      <section class="descriptografar">
-        <img src="assets/images/high-quality.svg" alt="" />
-
-        <div class="descrip-text">
-          <h2>Nenhuma mensagem encontrada</h2>
-
-          <p>Digite um texto que deseja criptografar ou descriptografar.</p>
-        </div>
-      </section>  
-      
-      <section class="buttons">
-        <p>
-          <i class="fa fa-info-circle"></i>
-          Apenas letras minúsculas e sem acentos</p>
-        <button id="criptografar" class="btnCript">Criptografar</button>
-        <button id="descriptografar" class="btnDescript">
-          Descriptografar
-        </button>
-      </section>
+    <main class="container">
+        <section class="container__texto">
+            <div class="container__textarea">
+              <textarea  cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+            <p id="exclamation" class="container__texto__aviso"><i class="fas fa-exclamation-circle"></i> Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="container__botao">
+                <button class="btnCript" onclick="validacaoCriptografia()">Criptografar</button>
+                <button class="btnDescript" onclick="validacaoDescriptografia()">Descriptografar</button>
+            </div>
+        </section> 
+        <section class="container__resultado">
+            <article id="mobile_info">
+                <img class="resultado__imagem" src="./assets/images/high-quality.svg">
+                <p class="destaqueTexto">Nenhuma mensagem encontrada</p>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </article>
+            <p id="resultado"></p>
+            <div id="copiar__texto">
+                <button onclick="copiarCriptografia()">Copiar</button>
+            </div>
+        </section>
     </main> 
+    <footer class="container__footer">
+        <p>Cipherword © 2024 Desenvolvido por Elizabete 💙</p>
+    </footer>
       
     <script src="assets/scripts/functions.js"></script>
   </body>
